@@ -1,6 +1,10 @@
 # Customer Sync Application
 
-This document outlines the development of a Customer Management System, which is a CRUD (Create, Read, Update, Delete) application. The system is built using JSP/Servlet for the backend and MySQL for the database. It includes secure JWT-based authentication and integrates with a remote API for synchronizing customer data.
+This project is a CRUD (Create, Read, Update, Delete) application for 
+managing customer data. The system utilizes a MySQL database, with the backend 
+developed using JSP/Servlet and the frontend built with HTML, CSS. The application 
+includes secure JWT-based authentication and integrates with a remote API for 
+synchronizing customer data. 
 
 ## Database Schema
 
