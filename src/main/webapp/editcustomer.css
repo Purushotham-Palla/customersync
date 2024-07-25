@@ -1,0 +1,97 @@
+body {
+    background-color: #f0f8ff; /* Light blue background */
+    font-family: Arial, sans-serif;
+    color: #333; /* Dark Gray */
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10rem;
+}
+
+.navbar .title {
+    flex: 1;
+    text-align: center;
+    color: #000000;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar button {
+    background-color: #007bff; /* Blue background */
+    border: none;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    font-size: 16px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.navbar button a {
+    color: white;
+}
+
+.details {
+    background-color: #ffffff; /* White background */
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 10px;
+    padding: 20px;
+    display: inline-block;
+    margin-top: 50px;
+    text-align: left;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.form label {
+    display: inline-block;
+    width: 100px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.form input[type="text"],
+.form input[type="number"],
+.form input[type="email"],
+.form input[type="tel"] {
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+    width: calc(600px - 140px); /* Full width minus label width and some margin */
+    box-sizing: border-box; /* Ensure padding is included in width */
+}
+
+.form input[type="submit"] {
+    background-color: #007bff; /* Blue background */
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.form input[type="submit"]:hover {
+    background-color: #0056b3; /* Darker blue background on hover */
+}
+
+p {
+    font-size: 24px;
+    font-weight: bold;
+    color: #007bff; /* Blue text */
+}
